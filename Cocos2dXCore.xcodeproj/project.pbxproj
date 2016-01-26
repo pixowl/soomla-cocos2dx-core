@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2296F8A31C56CEC7004CCA64 /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8921C56CEC7004CCA64 /* dump.c */; };
+		2296F8A41C56CEC7004CCA64 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8931C56CEC7004CCA64 /* error.c */; };
+		2296F8A51C56CEC7004CCA64 /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8941C56CEC7004CCA64 /* hashtable.c */; };
+		2296F8A61C56CEC7004CCA64 /* hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8951C56CEC7004CCA64 /* hashtable.h */; };
+		2296F8A71C56CEC7004CCA64 /* jansson.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8961C56CEC7004CCA64 /* jansson.h */; };
+		2296F8A81C56CEC7004CCA64 /* jansson_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8971C56CEC7004CCA64 /* jansson_config.h */; };
+		2296F8A91C56CEC7004CCA64 /* jansson_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8981C56CEC7004CCA64 /* jansson_private.h */; };
+		2296F8AA1C56CEC7004CCA64 /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8991C56CEC7004CCA64 /* load.c */; };
+		2296F8AB1C56CEC7004CCA64 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F89A1C56CEC7004CCA64 /* memory.c */; };
+		2296F8AC1C56CEC7004CCA64 /* pack_unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F89B1C56CEC7004CCA64 /* pack_unpack.c */; };
+		2296F8AD1C56CEC7004CCA64 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2296F89C1C56CEC7004CCA64 /* README.md */; };
+		2296F8AE1C56CEC7004CCA64 /* strbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F89D1C56CEC7004CCA64 /* strbuffer.c */; };
+		2296F8AF1C56CEC7004CCA64 /* strbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F89E1C56CEC7004CCA64 /* strbuffer.h */; };
+		2296F8B01C56CEC7004CCA64 /* strconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F89F1C56CEC7004CCA64 /* strconv.c */; };
+		2296F8B11C56CEC7004CCA64 /* utf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8A01C56CEC7004CCA64 /* utf.c */; };
+		2296F8B21C56CEC7004CCA64 /* utf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8A11C56CEC7004CCA64 /* utf.h */; };
+		2296F8B31C56CEC7004CCA64 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8A21C56CEC7004CCA64 /* value.c */; };
 		372B7222D15E89FF731A78BD /* CCSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7B53C5A571B92A25C08C /* CCSchedule.h */; };
 		372B72C58DE0C3DFE3522984 /* CCSoomlaEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7DF784D9DB67349CF869 /* CCSoomlaEntity.h */; };
 		372B74CD5188E48BE19BAC31 /* CCRewardStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7A7FFA3D34A23C31687B /* CCRewardStorage.h */; };
@@ -179,6 +196,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2296F8911C56CEC7004CCA64 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		2296F8921C56CEC7004CCA64 /* dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dump.c; sourceTree = "<group>"; };
+		2296F8931C56CEC7004CCA64 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		2296F8941C56CEC7004CCA64 /* hashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashtable.c; sourceTree = "<group>"; };
+		2296F8951C56CEC7004CCA64 /* hashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable.h; sourceTree = "<group>"; };
+		2296F8961C56CEC7004CCA64 /* jansson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson.h; sourceTree = "<group>"; };
+		2296F8971C56CEC7004CCA64 /* jansson_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_config.h; sourceTree = "<group>"; };
+		2296F8981C56CEC7004CCA64 /* jansson_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_private.h; sourceTree = "<group>"; };
+		2296F8991C56CEC7004CCA64 /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
+		2296F89A1C56CEC7004CCA64 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
+		2296F89B1C56CEC7004CCA64 /* pack_unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pack_unpack.c; sourceTree = "<group>"; };
+		2296F89C1C56CEC7004CCA64 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2296F89D1C56CEC7004CCA64 /* strbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strbuffer.c; sourceTree = "<group>"; };
+		2296F89E1C56CEC7004CCA64 /* strbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strbuffer.h; sourceTree = "<group>"; };
+		2296F89F1C56CEC7004CCA64 /* strconv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strconv.c; sourceTree = "<group>"; };
+		2296F8A01C56CEC7004CCA64 /* utf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf.c; sourceTree = "<group>"; };
+		2296F8A11C56CEC7004CCA64 /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		2296F8A21C56CEC7004CCA64 /* value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
 		372B727143D803D837F71632 /* JSBinding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSBinding.cpp; sourceTree = "<group>"; };
 		372B73021AB74279EE404D33 /* CCRewardStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRewardStorage.cpp; sourceTree = "<group>"; };
 		372B73C62BBFD3700BD6DE74 /* CCSchedule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSchedule.cpp; sourceTree = "<group>"; };
@@ -278,6 +313,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2296F8901C56CEC7004CCA64 /* jansson */ = {
+			isa = PBXGroup;
+			children = (
+				2296F8911C56CEC7004CCA64 /* Android.mk */,
+				2296F8921C56CEC7004CCA64 /* dump.c */,
+				2296F8931C56CEC7004CCA64 /* error.c */,
+				2296F8941C56CEC7004CCA64 /* hashtable.c */,
+				2296F8951C56CEC7004CCA64 /* hashtable.h */,
+				2296F8961C56CEC7004CCA64 /* jansson.h */,
+				2296F8971C56CEC7004CCA64 /* jansson_config.h */,
+				2296F8981C56CEC7004CCA64 /* jansson_private.h */,
+				2296F8991C56CEC7004CCA64 /* load.c */,
+				2296F89A1C56CEC7004CCA64 /* memory.c */,
+				2296F89B1C56CEC7004CCA64 /* pack_unpack.c */,
+				2296F89C1C56CEC7004CCA64 /* README.md */,
+				2296F89D1C56CEC7004CCA64 /* strbuffer.c */,
+				2296F89E1C56CEC7004CCA64 /* strbuffer.h */,
+				2296F89F1C56CEC7004CCA64 /* strconv.c */,
+				2296F8A01C56CEC7004CCA64 /* utf.c */,
+				2296F8A11C56CEC7004CCA64 /* utf.h */,
+				2296F8A21C56CEC7004CCA64 /* value.c */,
+			);
+			name = jansson;
+			path = ../jansson;
+			sourceTree = "<group>";
+		};
 		372B71722334FC1027A59BEB /* jsb */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +435,7 @@
 		C0B3C5E4168C6D0C00161FAA = {
 			isa = PBXGroup;
 			children = (
+				2296F8901C56CEC7004CCA64 /* jansson */,
 				9D4101241978CFAD00907FA8 /* Soomla */,
 				C0B3C5F1168C6D0C00161FAA /* Frameworks */,
 				C0B3C5F0168C6D0C00161FAA /* Products */,
@@ -431,9 +493,13 @@
 				9D4101661978CFAD00907FA8 /* CCBadgeReward.h in Headers */,
 				9D41016C1978CFAD00907FA8 /* CCSequenceReward.h in Headers */,
 				9D4101641978CFAD00907FA8 /* CCAggregateReward.h in Headers */,
+				2296F8B21C56CEC7004CCA64 /* utf.h in Headers */,
 				9D4101681978CFAD00907FA8 /* CCRandomReward.h in Headers */,
+				2296F8A91C56CEC7004CCA64 /* jansson_private.h in Headers */,
 				9D4101591978CFAD00907FA8 /* CCJsonHelper.h in Headers */,
 				9D4101531978CFAD00907FA8 /* CCDomainFactory.h in Headers */,
+				2296F8A81C56CEC7004CCA64 /* jansson_config.h in Headers */,
+				2296F8A61C56CEC7004CCA64 /* hashtable.h in Headers */,
 				9D41014C1978CFAD00907FA8 /* CCCoreConsts.h in Headers */,
 				F89F72241AB19307000ECC23 /* CCNativeCoreBridge.h in Headers */,
 				9D41015B1978CFAD00907FA8 /* CCNdkBridge.h in Headers */,
@@ -442,6 +508,7 @@
 				9D41014E1978CFAD00907FA8 /* CCCoreEventDispatcher.h in Headers */,
 				9D4101601978CFAD00907FA8 /* CCSoomlaMacros.h in Headers */,
 				9D4101621978CFAD00907FA8 /* CCDomain.h in Headers */,
+				2296F8AF1C56CEC7004CCA64 /* strbuffer.h in Headers */,
 				9D4101571978CFAD00907FA8 /* CCError.h in Headers */,
 				372B72C58DE0C3DFE3522984 /* CCSoomlaEntity.h in Headers */,
 				F89F720C1AB18D03000ECC23 /* CCBridgelessKeyValueStorage.h in Headers */,
@@ -450,6 +517,7 @@
 				372B7A1D5F372FCFD9E68388 /* CCSoomlaUtils.h in Headers */,
 				372B74CD5188E48BE19BAC31 /* CCRewardStorage.h in Headers */,
 				372B76D25F87B20B5A9BE347 /* JSBinding.h in Headers */,
+				2296F8A71C56CEC7004CCA64 /* jansson.h in Headers */,
 				372B7954AF49DDD56CD5B090 /* jsb_soomla.h in Headers */,
 				B2FA898365144AF2B272DB71 /* CCSoomlaConfigBuilder.h in Headers */,
 			);
@@ -656,9 +724,15 @@
 				F89F72221AB19307000ECC23 /* CCNativeCoreBridge.cpp in Sources */,
 				F89F720E1AB18D03000ECC23 /* CCBridgelessKeyValueStorage.cpp in Sources */,
 				9D41015A1978CFAD00907FA8 /* CCNdkBridge.cpp in Sources */,
+				2296F8AB1C56CEC7004CCA64 /* memory.c in Sources */,
 				9D4101581978CFAD00907FA8 /* CCJsonHelper.cpp in Sources */,
+				2296F8B11C56CEC7004CCA64 /* utf.c in Sources */,
+				2296F8AD1C56CEC7004CCA64 /* README.md in Sources */,
+				2296F8A51C56CEC7004CCA64 /* hashtable.c in Sources */,
 				9D41014D1978CFAD00907FA8 /* CCCoreEventDispatcher.cpp in Sources */,
 				9D4101651978CFAD00907FA8 /* CCBadgeReward.cpp in Sources */,
+				2296F8A41C56CEC7004CCA64 /* error.c in Sources */,
+				2296F8B01C56CEC7004CCA64 /* strconv.c in Sources */,
 				9D41014B1978CFAD00907FA8 /* CCCoreConsts.cpp in Sources */,
 				9D41016B1978CFAD00907FA8 /* CCSequenceReward.cpp in Sources */,
 				9D4101541978CFAD00907FA8 /* CCDomainHelper.cpp in Sources */,
@@ -666,14 +740,19 @@
 				9D4101611978CFAD00907FA8 /* CCDomain.cpp in Sources */,
 				9D4101521978CFAD00907FA8 /* CCDomainFactory.cpp in Sources */,
 				9D4101561978CFAD00907FA8 /* CCError.cpp in Sources */,
+				2296F8AE1C56CEC7004CCA64 /* strbuffer.c in Sources */,
 				9D4101671978CFAD00907FA8 /* CCRandomReward.cpp in Sources */,
 				F89F71FE1AB187E6000ECC23 /* CCNativeRewardStorage.cpp in Sources */,
 				372B7E556799F8D93570725F /* CCSoomlaEntity.cpp in Sources */,
 				372B781D8BC07D3AA891021B /* CCSchedule.cpp in Sources */,
 				372B790F7E37797D2E10ED65 /* CCSoomlaUtils.cpp in Sources */,
 				F865E1D11AB0A018006DA7E2 /* CCCoreBridge.cpp in Sources */,
+				2296F8AA1C56CEC7004CCA64 /* load.c in Sources */,
+				2296F8A31C56CEC7004CCA64 /* dump.c in Sources */,
 				F8B27EDB19B9F51F0094A771 /* CCKeyValueStorage.cpp in Sources */,
 				372B7FBE9869CD7B1B70ED0E /* CCRewardStorage.cpp in Sources */,
+				2296F8AC1C56CEC7004CCA64 /* pack_unpack.c in Sources */,
+				2296F8B31C56CEC7004CCA64 /* value.c in Sources */,
 				B2FA82FC583B93C1BCF4D4F6 /* CCSoomlaConfigBuilder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

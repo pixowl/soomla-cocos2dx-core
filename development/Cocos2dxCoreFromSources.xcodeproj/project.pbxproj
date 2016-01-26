@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2296F8C71C56CF72004CCA64 /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8B61C56CF72004CCA64 /* dump.c */; };
+		2296F8C81C56CF72004CCA64 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8B71C56CF72004CCA64 /* error.c */; };
+		2296F8C91C56CF72004CCA64 /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8B81C56CF72004CCA64 /* hashtable.c */; };
+		2296F8CA1C56CF72004CCA64 /* hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8B91C56CF72004CCA64 /* hashtable.h */; };
+		2296F8CB1C56CF72004CCA64 /* jansson.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8BA1C56CF72004CCA64 /* jansson.h */; };
+		2296F8CC1C56CF72004CCA64 /* jansson_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8BB1C56CF72004CCA64 /* jansson_config.h */; };
+		2296F8CD1C56CF72004CCA64 /* jansson_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8BC1C56CF72004CCA64 /* jansson_private.h */; };
+		2296F8CE1C56CF72004CCA64 /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8BD1C56CF72004CCA64 /* load.c */; };
+		2296F8CF1C56CF72004CCA64 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8BE1C56CF72004CCA64 /* memory.c */; };
+		2296F8D01C56CF72004CCA64 /* pack_unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8BF1C56CF72004CCA64 /* pack_unpack.c */; };
+		2296F8D11C56CF72004CCA64 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8C01C56CF72004CCA64 /* README.md */; };
+		2296F8D21C56CF72004CCA64 /* strbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8C11C56CF72004CCA64 /* strbuffer.c */; };
+		2296F8D31C56CF72004CCA64 /* strbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8C21C56CF72004CCA64 /* strbuffer.h */; };
+		2296F8D41C56CF72004CCA64 /* strconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8C31C56CF72004CCA64 /* strconv.c */; };
+		2296F8D51C56CF72004CCA64 /* utf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8C41C56CF72004CCA64 /* utf.c */; };
+		2296F8D61C56CF72004CCA64 /* utf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2296F8C51C56CF72004CCA64 /* utf.h */; };
+		2296F8D71C56CF72004CCA64 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 2296F8C61C56CF72004CCA64 /* value.c */; };
 		372B7222D15E89FF731A78BD /* CCSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7B53C5A571B92A25C08C /* CCSchedule.h */; };
 		372B72C58DE0C3DFE3522984 /* CCSoomlaEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7DF784D9DB67349CF869 /* CCSoomlaEntity.h */; };
 		372B74CD5188E48BE19BAC31 /* CCRewardStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7A7FFA3D34A23C31687B /* CCRewardStorage.h */; };
@@ -278,6 +295,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2296F8B51C56CF72004CCA64 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		2296F8B61C56CF72004CCA64 /* dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dump.c; sourceTree = "<group>"; };
+		2296F8B71C56CF72004CCA64 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		2296F8B81C56CF72004CCA64 /* hashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashtable.c; sourceTree = "<group>"; };
+		2296F8B91C56CF72004CCA64 /* hashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable.h; sourceTree = "<group>"; };
+		2296F8BA1C56CF72004CCA64 /* jansson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson.h; sourceTree = "<group>"; };
+		2296F8BB1C56CF72004CCA64 /* jansson_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_config.h; sourceTree = "<group>"; };
+		2296F8BC1C56CF72004CCA64 /* jansson_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_private.h; sourceTree = "<group>"; };
+		2296F8BD1C56CF72004CCA64 /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
+		2296F8BE1C56CF72004CCA64 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
+		2296F8BF1C56CF72004CCA64 /* pack_unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pack_unpack.c; sourceTree = "<group>"; };
+		2296F8C01C56CF72004CCA64 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2296F8C11C56CF72004CCA64 /* strbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strbuffer.c; sourceTree = "<group>"; };
+		2296F8C21C56CF72004CCA64 /* strbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strbuffer.h; sourceTree = "<group>"; };
+		2296F8C31C56CF72004CCA64 /* strconv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strconv.c; sourceTree = "<group>"; };
+		2296F8C41C56CF72004CCA64 /* utf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf.c; sourceTree = "<group>"; };
+		2296F8C51C56CF72004CCA64 /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		2296F8C61C56CF72004CCA64 /* value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
 		372B73021AB74279EE404D33 /* CCRewardStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRewardStorage.cpp; sourceTree = "<group>"; };
 		372B73C62BBFD3700BD6DE74 /* CCSchedule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSchedule.cpp; sourceTree = "<group>"; };
 		372B74257254F43D38DF97CA /* CCSoomlaEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSoomlaEntity.cpp; sourceTree = "<group>"; };
@@ -423,6 +458,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2296F8B41C56CF72004CCA64 /* jansson */ = {
+			isa = PBXGroup;
+			children = (
+				2296F8B51C56CF72004CCA64 /* Android.mk */,
+				2296F8B61C56CF72004CCA64 /* dump.c */,
+				2296F8B71C56CF72004CCA64 /* error.c */,
+				2296F8B81C56CF72004CCA64 /* hashtable.c */,
+				2296F8B91C56CF72004CCA64 /* hashtable.h */,
+				2296F8BA1C56CF72004CCA64 /* jansson.h */,
+				2296F8BB1C56CF72004CCA64 /* jansson_config.h */,
+				2296F8BC1C56CF72004CCA64 /* jansson_private.h */,
+				2296F8BD1C56CF72004CCA64 /* load.c */,
+				2296F8BE1C56CF72004CCA64 /* memory.c */,
+				2296F8BF1C56CF72004CCA64 /* pack_unpack.c */,
+				2296F8C01C56CF72004CCA64 /* README.md */,
+				2296F8C11C56CF72004CCA64 /* strbuffer.c */,
+				2296F8C21C56CF72004CCA64 /* strbuffer.h */,
+				2296F8C31C56CF72004CCA64 /* strconv.c */,
+				2296F8C41C56CF72004CCA64 /* utf.c */,
+				2296F8C51C56CF72004CCA64 /* utf.h */,
+				2296F8C61C56CF72004CCA64 /* value.c */,
+			);
+			name = jansson;
+			path = ../../jansson;
+			sourceTree = "<group>";
+		};
 		372B7A1EA12379CCB201D0E1 /* data */ = {
 			isa = PBXGroup;
 			children = (
@@ -619,6 +680,7 @@
 		C0B3C5E4168C6D0C00161FAA = {
 			isa = PBXGroup;
 			children = (
+				2296F8B41C56CF72004CCA64 /* jansson */,
 				9D4101241978CFAD00907FA8 /* Soomla */,
 				9D63D02B19B0EDB90054EA87 /* CoreCocos2dx */,
 				9D63D04C19B0EE220054EA87 /* SoomlaiOSCore */,
@@ -742,6 +804,7 @@
 				9D63D07A19B0EE220054EA87 /* KeyValueStorage.h in Headers */,
 				9D63D07819B0EE220054EA87 /* KeyValDatabase.h in Headers */,
 				9D4101551978CFAD00907FA8 /* CCDomainHelper.h in Headers */,
+				2296F8CA1C56CF72004CCA64 /* hashtable.h in Headers */,
 				9D63D07E19B0EE220054EA87 /* SoomlaEncryptor.h in Headers */,
 				F89F71F51AB187DB000ECC23 /* CCBridgelessKeyValueStorage.h in Headers */,
 				9D63D04019B0EDB90054EA87 /* CoreBridge.h in Headers */,
@@ -768,8 +831,11 @@
 				9D63D07619B0EE220054EA87 /* JSONConsts.h in Headers */,
 				9D41014E1978CFAD00907FA8 /* CCCoreEventDispatcher.h in Headers */,
 				9D4101601978CFAD00907FA8 /* CCSoomlaMacros.h in Headers */,
+				2296F8D31C56CF72004CCA64 /* strbuffer.h in Headers */,
 				9D4101621978CFAD00907FA8 /* CCDomain.h in Headers */,
 				9D4101571978CFAD00907FA8 /* CCError.h in Headers */,
+				2296F8D61C56CF72004CCA64 /* utf.h in Headers */,
+				2296F8CC1C56CF72004CCA64 /* jansson_config.h in Headers */,
 				9D63D08219B0EE220054EA87 /* NSData-Base64.h in Headers */,
 				9D63D08419B0EE220054EA87 /* BadgeReward.h in Headers */,
 				372B72C58DE0C3DFE3522984 /* CCSoomlaEntity.h in Headers */,
@@ -780,10 +846,12 @@
 				372B7A1D5F372FCFD9E68388 /* CCSoomlaUtils.h in Headers */,
 				372B74CD5188E48BE19BAC31 /* CCRewardStorage.h in Headers */,
 				F865E2061AB0AF77006DA7E2 /* CCNativeKeyValueStorage.h in Headers */,
+				2296F8CB1C56CF72004CCA64 /* jansson.h in Headers */,
 				F865E2021AB0AF65006DA7E2 /* CCNativeRewardStorage.h in Headers */,
 				9D63D03E19B0EDB90054EA87 /* CommonConsts.h in Headers */,
 				F89F721B1AB192D9000ECC23 /* CCNativeCoreBridge.h in Headers */,
 				B2FA8B2E47494837381F1791 /* CCSoomlaConfigBuilder.h in Headers */,
+				2296F8CD1C56CF72004CCA64 /* jansson_private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,18 +1040,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D63D04319B0EDB90054EA87 /* DomainFactory.mm in Sources */,
+				2296F8D21C56CF72004CCA64 /* strbuffer.c in Sources */,
 				9D4101631978CFAD00907FA8 /* CCAggregateReward.cpp in Sources */,
 				9D63D09519B0EE220054EA87 /* SoomlaEventHandling.m in Sources */,
 				9D63D07B19B0EE220054EA87 /* KeyValueStorage.m in Sources */,
 				F89F72191AB192D9000ECC23 /* CCNativeCoreBridge.cpp in Sources */,
 				9D41015E1978CFAD00907FA8 /* CCSoomlaEventDispatcher.cpp in Sources */,
 				9D63D07D19B0EE220054EA87 /* RewardStorage.m in Sources */,
+				2296F8D01C56CF72004CCA64 /* pack_unpack.c in Sources */,
 				F865E1B21AB06FE9006DA7E2 /* CCCoreBridgeBinderIos.mm in Sources */,
 				9D4101691978CFAD00907FA8 /* CCReward.cpp in Sources */,
 				9D41015A1978CFAD00907FA8 /* CCNdkBridge.cpp in Sources */,
 				9D4101581978CFAD00907FA8 /* CCJsonHelper.cpp in Sources */,
 				9D41014D1978CFAD00907FA8 /* CCCoreEventDispatcher.cpp in Sources */,
 				9D63D08D19B0EE220054EA87 /* Schedule.m in Sources */,
+				2296F8C71C56CF72004CCA64 /* dump.c in Sources */,
 				9D4101651978CFAD00907FA8 /* CCBadgeReward.cpp in Sources */,
 				F865E1AE1AB05541006DA7E2 /* CCSoomla.cpp in Sources */,
 				9D63D08719B0EE220054EA87 /* RandomReward.m in Sources */,
@@ -999,10 +1070,12 @@
 				9D63D09119B0EE220054EA87 /* SoomlaConfig.m in Sources */,
 				9D63D08319B0EE220054EA87 /* NSData-Base64.m in Sources */,
 				9D63D09319B0EE220054EA87 /* SoomlaEntity.m in Sources */,
+				2296F8D71C56CF72004CCA64 /* value.c in Sources */,
 				9D63D07F19B0EE220054EA87 /* SoomlaEncryptor.m in Sources */,
 				F89F71F61AB187DB000ECC23 /* CCBridgelessKeyValueStorage.cpp in Sources */,
 				9D63D09A19B0EE220054EA87 /* DictionaryFactory.m in Sources */,
 				9D4101611978CFAD00907FA8 /* CCDomain.cpp in Sources */,
+				2296F8C81C56CF72004CCA64 /* error.c in Sources */,
 				9D63D08B19B0EE220054EA87 /* SequenceReward.m in Sources */,
 				9D4101521978CFAD00907FA8 /* CCDomainFactory.cpp in Sources */,
 				9D63D04519B0EDB90054EA87 /* DomainHelper.mm in Sources */,
@@ -1010,15 +1083,21 @@
 				9D63D08519B0EE220054EA87 /* BadgeReward.m in Sources */,
 				9D63D03F19B0EDB90054EA87 /* CommonConsts.mm in Sources */,
 				9D4101501978CFAD00907FA8 /* CCCoreBridge.cpp in Sources */,
+				2296F8D11C56CF72004CCA64 /* README.md in Sources */,
 				9D63D03D19B0EDB90054EA87 /* CCNdkBridgeIos.mm in Sources */,
+				2296F8CF1C56CF72004CCA64 /* memory.c in Sources */,
 				F8B27ED319B9E8C90094A771 /* CCKeyValueStorage.cpp in Sources */,
 				9D4101671978CFAD00907FA8 /* CCRandomReward.cpp in Sources */,
 				372B7E556799F8D93570725F /* CCSoomlaEntity.cpp in Sources */,
+				2296F8D41C56CF72004CCA64 /* strconv.c in Sources */,
+				2296F8CE1C56CF72004CCA64 /* load.c in Sources */,
 				9D63D07919B0EE220054EA87 /* KeyValDatabase.m in Sources */,
 				9D63D04719B0EDB90054EA87 /* NdkGlue.mm in Sources */,
 				F865E2011AB0AF65006DA7E2 /* CCNativeRewardStorage.cpp in Sources */,
 				9D63D07719B0EE220054EA87 /* JSONConsts.m in Sources */,
 				372B781D8BC07D3AA891021B /* CCSchedule.cpp in Sources */,
+				2296F8D51C56CF72004CCA64 /* utf.c in Sources */,
+				2296F8C91C56CF72004CCA64 /* hashtable.c in Sources */,
 				372B790F7E37797D2E10ED65 /* CCSoomlaUtils.cpp in Sources */,
 				372B7FBE9869CD7B1B70ED0E /* CCRewardStorage.cpp in Sources */,
 				B2FA802E3365C440A8C2CE14 /* CCSoomlaConfigBuilder.cpp in Sources */,
