@@ -6,3 +6,10 @@ out
 xcuserdata
 development/Cocos2dxCoreFromSources.xcodeproj/project.xcworkspace
 development/soomla-native/projects/cocos2dx-ios-core/Cocos2dXiOSCore.xcodeproj/project.xcworkspace
+
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
