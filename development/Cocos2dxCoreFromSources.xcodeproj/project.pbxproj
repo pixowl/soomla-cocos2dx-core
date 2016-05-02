@@ -81,7 +81,6 @@
 		9D4B317F1AC009200083C869 /* CCSoomla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F865E1AD1AB05541006DA7E2 /* CCSoomla.cpp */; };
 		9D4B31801AC009200083C869 /* RandomReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D06119B0EE220054EA87 /* RandomReward.m */; };
 		9D4B31811AC009200083C869 /* CCCoreConsts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4101261978CFAD00907FA8 /* CCCoreConsts.cpp */; };
-		9D4B31821AC009200083C869 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05A19B0EE220054EA87 /* FBEncryptorAES.m */; };
 		9D4B31831AC009200083C869 /* Reward.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D06319B0EE220054EA87 /* Reward.m */; };
 		9D4B31841AC009200083C869 /* Soomla.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D06919B0EE220054EA87 /* Soomla.m */; };
 		9D4B31851AC009200083C869 /* CCSequenceReward.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D4101481978CFAD00907FA8 /* CCSequenceReward.cpp */; };
@@ -90,9 +89,7 @@
 		9D4B31881AC009200083C869 /* CCNativeKeyValueStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F865E2031AB0AF77006DA7E2 /* CCNativeKeyValueStorage.cpp */; };
 		9D4B31891AC009200083C869 /* SoomlaUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D07219B0EE220054EA87 /* SoomlaUtils.m */; };
 		9D4B318A1AC009200083C869 /* SoomlaConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D06B19B0EE220054EA87 /* SoomlaConfig.m */; };
-		9D4B318B1AC009200083C869 /* NSData-Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05C19B0EE220054EA87 /* NSData-Base64.m */; };
 		9D4B318C1AC009200083C869 /* SoomlaEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D06D19B0EE220054EA87 /* SoomlaEntity.m */; };
-		9D4B318D1AC009200083C869 /* SoomlaEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05719B0EE220054EA87 /* SoomlaEncryptor.m */; };
 		9D4B318E1AC009200083C869 /* CCBridgelessKeyValueStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89F71F41AB187DB000ECC23 /* CCBridgelessKeyValueStorage.cpp */; };
 		9D4B318F1AC009200083C869 /* DictionaryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D07519B0EE220054EA87 /* DictionaryFactory.m */; };
 		9D4B31901AC009200083C869 /* CCDomain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D41013D1978CFAD00907FA8 /* CCDomain.cpp */; };
@@ -127,7 +124,6 @@
 		9D4B31AF1AC009200083C869 /* KeyValueStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05219B0EE220054EA87 /* KeyValueStorage.h */; };
 		9D4B31B11AC009200083C869 /* KeyValDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05019B0EE220054EA87 /* KeyValDatabase.h */; };
 		9D4B31B21AC009200083C869 /* CCDomainHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4101301978CFAD00907FA8 /* CCDomainHelper.h */; };
-		9D4B31B31AC009200083C869 /* SoomlaEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05619B0EE220054EA87 /* SoomlaEncryptor.h */; };
 		9D4B31B41AC009200083C869 /* CCBridgelessKeyValueStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = F89F71F31AB187DB000ECC23 /* CCBridgelessKeyValueStorage.h */; };
 		9D4B31B51AC009200083C869 /* CoreBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D03019B0EDB90054EA87 /* CoreBridge.h */; };
 		9D4B31B61AC009200083C869 /* RandomReward.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D06019B0EE220054EA87 /* RandomReward.h */; };
@@ -149,13 +145,11 @@
 		9D4B31C61AC009200083C869 /* DomainHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D03419B0EDB90054EA87 /* DomainHelper.h */; };
 		9D4B31C71AC009200083C869 /* CCNdkBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4101361978CFAD00907FA8 /* CCNdkBridge.h */; };
 		9D4B31C81AC009200083C869 /* CCSoomlaEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D41013A1978CFAD00907FA8 /* CCSoomlaEventDispatcher.h */; };
-		9D4B31C91AC009200083C869 /* FBEncryptorAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05919B0EE220054EA87 /* FBEncryptorAES.h */; };
 		9D4B31CA1AC009200083C869 /* JSONConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D04E19B0EE220054EA87 /* JSONConsts.h */; };
 		9D4B31CB1AC009200083C869 /* CCCoreEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4101291978CFAD00907FA8 /* CCCoreEventDispatcher.h */; };
 		9D4B31CC1AC009200083C869 /* CCSoomlaMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D41013B1978CFAD00907FA8 /* CCSoomlaMacros.h */; };
 		9D4B31CD1AC009200083C869 /* CCDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D41013E1978CFAD00907FA8 /* CCDomain.h */; };
 		9D4B31CE1AC009200083C869 /* CCError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4101321978CFAD00907FA8 /* CCError.h */; };
-		9D4B31CF1AC009200083C869 /* NSData-Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05B19B0EE220054EA87 /* NSData-Base64.h */; };
 		9D4B31D01AC009200083C869 /* BadgeReward.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05E19B0EE220054EA87 /* BadgeReward.h */; };
 		9D4B31D11AC009200083C869 /* CCSoomlaEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7DF784D9DB67349CF869 /* CCSoomlaEntity.h */; };
 		9D4B31D21AC009200083C869 /* CCSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 372B7B53C5A571B92A25C08C /* CCSchedule.h */; };
@@ -192,12 +186,6 @@
 		9D63D07B19B0EE220054EA87 /* KeyValueStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05319B0EE220054EA87 /* KeyValueStorage.m */; };
 		9D63D07C19B0EE220054EA87 /* RewardStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05419B0EE220054EA87 /* RewardStorage.h */; };
 		9D63D07D19B0EE220054EA87 /* RewardStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05519B0EE220054EA87 /* RewardStorage.m */; };
-		9D63D07E19B0EE220054EA87 /* SoomlaEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05619B0EE220054EA87 /* SoomlaEncryptor.h */; };
-		9D63D07F19B0EE220054EA87 /* SoomlaEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05719B0EE220054EA87 /* SoomlaEncryptor.m */; };
-		9D63D08019B0EE220054EA87 /* FBEncryptorAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05919B0EE220054EA87 /* FBEncryptorAES.h */; };
-		9D63D08119B0EE220054EA87 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05A19B0EE220054EA87 /* FBEncryptorAES.m */; };
-		9D63D08219B0EE220054EA87 /* NSData-Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05B19B0EE220054EA87 /* NSData-Base64.h */; };
-		9D63D08319B0EE220054EA87 /* NSData-Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05C19B0EE220054EA87 /* NSData-Base64.m */; };
 		9D63D08419B0EE220054EA87 /* BadgeReward.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D05E19B0EE220054EA87 /* BadgeReward.h */; };
 		9D63D08519B0EE220054EA87 /* BadgeReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D63D05F19B0EE220054EA87 /* BadgeReward.m */; };
 		9D63D08619B0EE220054EA87 /* RandomReward.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63D06019B0EE220054EA87 /* RandomReward.h */; };
@@ -380,12 +368,6 @@
 		9D63D05319B0EE220054EA87 /* KeyValueStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueStorage.m; sourceTree = "<group>"; };
 		9D63D05419B0EE220054EA87 /* RewardStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardStorage.h; sourceTree = "<group>"; };
 		9D63D05519B0EE220054EA87 /* RewardStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardStorage.m; sourceTree = "<group>"; };
-		9D63D05619B0EE220054EA87 /* SoomlaEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoomlaEncryptor.h; sourceTree = "<group>"; };
-		9D63D05719B0EE220054EA87 /* SoomlaEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoomlaEncryptor.m; sourceTree = "<group>"; };
-		9D63D05919B0EE220054EA87 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
-		9D63D05A19B0EE220054EA87 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
-		9D63D05B19B0EE220054EA87 /* NSData-Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-Base64.h"; sourceTree = "<group>"; };
-		9D63D05C19B0EE220054EA87 /* NSData-Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData-Base64.m"; sourceTree = "<group>"; };
 		9D63D05E19B0EE220054EA87 /* BadgeReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeReward.h; sourceTree = "<group>"; };
 		9D63D05F19B0EE220054EA87 /* BadgeReward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeReward.m; sourceTree = "<group>"; };
 		9D63D06019B0EE220054EA87 /* RandomReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomReward.h; sourceTree = "<group>"; };
@@ -604,7 +586,6 @@
 			isa = PBXGroup;
 			children = (
 				9D63D04D19B0EE220054EA87 /* data */,
-				9D63D05819B0EE220054EA87 /* FBEncryptor */,
 				9D63D05D19B0EE220054EA87 /* rewards */,
 				9D63D06619B0EE220054EA87 /* Schedule.h */,
 				9D63D06719B0EE220054EA87 /* Schedule.m */,
@@ -636,21 +617,8 @@
 				9D63D05319B0EE220054EA87 /* KeyValueStorage.m */,
 				9D63D05419B0EE220054EA87 /* RewardStorage.h */,
 				9D63D05519B0EE220054EA87 /* RewardStorage.m */,
-				9D63D05619B0EE220054EA87 /* SoomlaEncryptor.h */,
-				9D63D05719B0EE220054EA87 /* SoomlaEncryptor.m */,
 			);
 			path = data;
-			sourceTree = "<group>";
-		};
-		9D63D05819B0EE220054EA87 /* FBEncryptor */ = {
-			isa = PBXGroup;
-			children = (
-				9D63D05919B0EE220054EA87 /* FBEncryptorAES.h */,
-				9D63D05A19B0EE220054EA87 /* FBEncryptorAES.m */,
-				9D63D05B19B0EE220054EA87 /* NSData-Base64.h */,
-				9D63D05C19B0EE220054EA87 /* NSData-Base64.m */,
-			);
-			path = FBEncryptor;
 			sourceTree = "<group>";
 		};
 		9D63D05D19B0EE220054EA87 /* rewards */ = {
@@ -741,7 +709,6 @@
 				9D4B31AF1AC009200083C869 /* KeyValueStorage.h in Headers */,
 				9D4B31B11AC009200083C869 /* KeyValDatabase.h in Headers */,
 				9D4B31B21AC009200083C869 /* CCDomainHelper.h in Headers */,
-				9D4B31B31AC009200083C869 /* SoomlaEncryptor.h in Headers */,
 				9D4B31B41AC009200083C869 /* CCBridgelessKeyValueStorage.h in Headers */,
 				9D4B31B51AC009200083C869 /* CoreBridge.h in Headers */,
 				9D4B31B61AC009200083C869 /* RandomReward.h in Headers */,
@@ -763,7 +730,6 @@
 				9D4B31C61AC009200083C869 /* DomainHelper.h in Headers */,
 				9D4B31C71AC009200083C869 /* CCNdkBridge.h in Headers */,
 				9D4B31C81AC009200083C869 /* CCSoomlaEventDispatcher.h in Headers */,
-				9D4B31C91AC009200083C869 /* FBEncryptorAES.h in Headers */,
 				9D4B31E61AC00A440083C869 /* jsb_soomla.h in Headers */,
 				9D4B31CA1AC009200083C869 /* JSONConsts.h in Headers */,
 				9D4B31CB1AC009200083C869 /* CCCoreEventDispatcher.h in Headers */,
@@ -771,7 +737,6 @@
 				9D4B31CD1AC009200083C869 /* CCDomain.h in Headers */,
 				9D4B31E81AC00A440083C869 /* JSBinding.h in Headers */,
 				9D4B31CE1AC009200083C869 /* CCError.h in Headers */,
-				9D4B31CF1AC009200083C869 /* NSData-Base64.h in Headers */,
 				9D4B31D01AC009200083C869 /* BadgeReward.h in Headers */,
 				9D4B31D11AC009200083C869 /* CCSoomlaEntity.h in Headers */,
 				9D4B31D21AC009200083C869 /* CCSchedule.h in Headers */,
@@ -805,7 +770,6 @@
 				9D63D07819B0EE220054EA87 /* KeyValDatabase.h in Headers */,
 				9D4101551978CFAD00907FA8 /* CCDomainHelper.h in Headers */,
 				2296F8CA1C56CF72004CCA64 /* hashtable.h in Headers */,
-				9D63D07E19B0EE220054EA87 /* SoomlaEncryptor.h in Headers */,
 				F89F71F51AB187DB000ECC23 /* CCBridgelessKeyValueStorage.h in Headers */,
 				9D63D04019B0EDB90054EA87 /* CoreBridge.h in Headers */,
 				9D63D08619B0EE220054EA87 /* RandomReward.h in Headers */,
@@ -827,7 +791,6 @@
 				9D63D04419B0EDB90054EA87 /* DomainHelper.h in Headers */,
 				9D41015B1978CFAD00907FA8 /* CCNdkBridge.h in Headers */,
 				9D41015F1978CFAD00907FA8 /* CCSoomlaEventDispatcher.h in Headers */,
-				9D63D08019B0EE220054EA87 /* FBEncryptorAES.h in Headers */,
 				9D63D07619B0EE220054EA87 /* JSONConsts.h in Headers */,
 				9D41014E1978CFAD00907FA8 /* CCCoreEventDispatcher.h in Headers */,
 				9D4101601978CFAD00907FA8 /* CCSoomlaMacros.h in Headers */,
@@ -836,7 +799,6 @@
 				9D4101571978CFAD00907FA8 /* CCError.h in Headers */,
 				2296F8D61C56CF72004CCA64 /* utf.h in Headers */,
 				2296F8CC1C56CF72004CCA64 /* jansson_config.h in Headers */,
-				9D63D08219B0EE220054EA87 /* NSData-Base64.h in Headers */,
 				9D63D08419B0EE220054EA87 /* BadgeReward.h in Headers */,
 				372B72C58DE0C3DFE3522984 /* CCSoomlaEntity.h in Headers */,
 				372B7222D15E89FF731A78BD /* CCSchedule.h in Headers */,
@@ -996,7 +958,6 @@
 				9D4B317F1AC009200083C869 /* CCSoomla.cpp in Sources */,
 				9D4B31801AC009200083C869 /* RandomReward.m in Sources */,
 				9D4B31811AC009200083C869 /* CCCoreConsts.cpp in Sources */,
-				9D4B31821AC009200083C869 /* FBEncryptorAES.m in Sources */,
 				9D4B31831AC009200083C869 /* Reward.m in Sources */,
 				9D4B31841AC009200083C869 /* Soomla.m in Sources */,
 				9D4B31851AC009200083C869 /* CCSequenceReward.cpp in Sources */,
@@ -1005,9 +966,7 @@
 				9D4B31881AC009200083C869 /* CCNativeKeyValueStorage.cpp in Sources */,
 				9D4B31891AC009200083C869 /* SoomlaUtils.m in Sources */,
 				9D4B318A1AC009200083C869 /* SoomlaConfig.m in Sources */,
-				9D4B318B1AC009200083C869 /* NSData-Base64.m in Sources */,
 				9D4B318C1AC009200083C869 /* SoomlaEntity.m in Sources */,
-				9D4B318D1AC009200083C869 /* SoomlaEncryptor.m in Sources */,
 				9D4B318E1AC009200083C869 /* CCBridgelessKeyValueStorage.cpp in Sources */,
 				9D4B31E51AC00A440083C869 /* jsb_soomla.cpp in Sources */,
 				9D4B318F1AC009200083C869 /* DictionaryFactory.m in Sources */,
@@ -1059,7 +1018,6 @@
 				F865E1AE1AB05541006DA7E2 /* CCSoomla.cpp in Sources */,
 				9D63D08719B0EE220054EA87 /* RandomReward.m in Sources */,
 				9D41014B1978CFAD00907FA8 /* CCCoreConsts.cpp in Sources */,
-				9D63D08119B0EE220054EA87 /* FBEncryptorAES.m in Sources */,
 				9D63D08919B0EE220054EA87 /* Reward.m in Sources */,
 				9D63D08F19B0EE220054EA87 /* Soomla.m in Sources */,
 				9D41016B1978CFAD00907FA8 /* CCSequenceReward.cpp in Sources */,
@@ -1068,10 +1026,8 @@
 				F865E2051AB0AF77006DA7E2 /* CCNativeKeyValueStorage.cpp in Sources */,
 				9D63D09819B0EE220054EA87 /* SoomlaUtils.m in Sources */,
 				9D63D09119B0EE220054EA87 /* SoomlaConfig.m in Sources */,
-				9D63D08319B0EE220054EA87 /* NSData-Base64.m in Sources */,
 				9D63D09319B0EE220054EA87 /* SoomlaEntity.m in Sources */,
 				2296F8D71C56CF72004CCA64 /* value.c in Sources */,
-				9D63D07F19B0EE220054EA87 /* SoomlaEncryptor.m in Sources */,
 				F89F71F61AB187DB000ECC23 /* CCBridgelessKeyValueStorage.cpp in Sources */,
 				9D63D09A19B0EE220054EA87 /* DictionaryFactory.m in Sources */,
 				9D4101611978CFAD00907FA8 /* CCDomain.cpp in Sources */,
@@ -1298,6 +1254,7 @@
 					"$(SRCROOT)/../../cocos2dx3/cocos/platform/ios",
 					"$(SRCROOT)/../../cocos2dx3/cocos/platform/ios/Simulation",
 					"$(SRCROOT)/../../jansson",
+					"$(SRCROOT)/submodules/soomla-ios-core/libs/keeva/headers/**",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
@@ -1330,6 +1287,7 @@
 					"$(SRCROOT)/../../cocos2dx3/cocos/platform/ios",
 					"$(SRCROOT)/../../cocos2dx3/cocos/platform/ios/Simulation",
 					"$(SRCROOT)/../../jansson",
+					"$(SRCROOT)/submodules/soomla-ios-core/libs/keeva/headers/**",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				LINK_WITH_STANDARD_LIBRARIES = NO;

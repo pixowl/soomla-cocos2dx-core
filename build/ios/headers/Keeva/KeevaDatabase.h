@@ -1,5 +1,5 @@
 /*
- Copyright (C) 2012-2014 Soomla Inc.
+ Copyright (C) 2012-2016 Soomla Inc.
  
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -18,14 +18,14 @@
 #import <sqlite3.h>
 
 /**
- The `KeyValDatabase` provides basic key-value store above SQLite.
+ The `KeevaDatabase` provides basic key-value store above SQLite.
  */
-@interface KeyValDatabase : NSObject{
+@interface KeevaDatabase : NSObject{
     @private
     sqlite3 *database;
 }
 
-- (id)init;
+- (id)initWithName:(NSString*)dbName;
 
 /**
  Sets the given `value` to the given `key`.
@@ -59,6 +59,16 @@
  @return The values of the key-val pairs fetched.
  */
 - (NSArray*)getValsForQuery:(NSString*)query;
+
+/**
+ Retrieves from the DB the values of the key-val pairs that answer the given
+ `query`.
+ 
+ @param query The query that indicates what to fetch from the DB.
+ @param limit the max amount of fetched entries.
+ @return The values of the key-val pairs fetched.
+ */
+- (NSArray*)getValsForQuery:(NSString*)query withLimit:(int)limit;
 
 /**
  Retrieves from the DB ONE value of the key-val pairs that answer the given
@@ -98,18 +108,5 @@
  This message is used mainly for while in testing.
  */
 - (void)purgeDatabase;
-
-
-/** SOOMLA keys **/
-
-+ (NSString*) keyGoodBalance:(NSString*)itemId;
-
-+ (NSString*) keyGoodEquipped:(NSString*)itemId;
-
-+ (NSString*) keyGoodUpgrade:(NSString*)itemId;
-
-+ (NSString*) keyCurrencyBalance:(NSString*)itemId;
-
-+ (NSString*) keyMetaStoreInfo;
 
 @end
